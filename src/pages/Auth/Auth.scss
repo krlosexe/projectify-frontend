@@ -1,0 +1,24 @@
+@import "../../scss/index.scss";
+
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  &__icon {
+    width: 10rem;
+    height: 10rem;
+    fill: $color-primary;
+  }
+
+  .container-form {
+    width: 40rem;
+    background-color: $background-light;
+    padding: 2rem 5rem 4rem;
+    border: 1px solid $border-grey;
+    margin-top: 5rem;
+    border-radius: 5px;
+  }
+}
